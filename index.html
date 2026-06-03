@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>منصة نوفل | التصحيح النموذجي - الأدب العربي</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        body { font-family: 'Tajawal', sans-serif; background-color: #f8fafc; color: #1e293b; }
+        
+        .tab-content { display: none; animation: fadeIn 0.4s ease-in-out; }
+        .tab-content.active { display: block; }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(15px); } to { opacity: 1; transform: translateY(0); } }
+        
+        .card { background: white; border-radius: 12px; padding: 25px; margin-bottom: 25px; box-shadow: 0 4px 10px rgba(0,0,0,0.05); }
+        .section-title { font-size: 1.3rem; font-weight: 800; color: #065f46; border-bottom: 2px dashed #a7f3d0; padding-bottom: 10px; margin-bottom: 20px; display: flex; align-items: center; }
+        
+        .answer-list { list-style-type: none; padding: 0; }
+        .answer-list > li { margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid #f1f5f9; }
+        .answer-list > li:last-child { border-bottom: none; }
+        
+        .q-number { background: #059669; color: white; width: 28px; height: 28px; display: inline-flex; justify-content: center; align-items: center; border-radius: 50%; font-weight: bold; margin-left: 10px; font-size: 0.9rem;}
+        
+        .point-badge { background: #fee2e2; color: #b91c1c; font-size: 0.85rem; padding: 3px 10px; border-radius: 12px; font-weight: bold; float: left; margin-top: 2px; border: 1px solid #fca5a5; }
+        .sub-point { color: #b91c1c; font-weight: bold; font-size: 0.85rem; }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="bg-gradient-to-l from-emerald-900 to-teal-800 text-white py-10 px-4 text-center shadow-lg relative">
+        <div class="absolute top-0 right-0 bg-yellow-400 text-emerald-900 font-black py-2 px-6 rounded-bl-2xl shadow-md">التصحيح النموذجي</div>
+        <h1 class="text-3xl md:text-5xl font-black mb-3 mt-4"><i class="fa-solid fa-check-to-slot ml-3 text-yellow-400"></i>سلم التنقيط والحلول المفصلة</h1>
+        <p class="text-emerald-100 text-lg max-w-3xl mx-auto">إجابات نموذجية دقيقة وفق منهجية الإجابة المعتمدة في امتحانات شهادة البكالوريا.</p>
+    </header>
+
+    <!-- Navigation -->
+    <div class="container mx-auto px-4 mt-8">
+        <div class="flex flex-wrap justify-center gap-3">
+            <button onclick="switchTab('topic1-sol')" class="nav-btn bg-emerald-600 text-white border-2 border-emerald-600 px-6 py-3 rounded-xl font-bold transition shadow-sm" id="btn-topic1-sol">حل: الشعر السياسي</button>
+            <button onclick="switchTab('topic2-sol')" class="nav-btn bg-white text-emerald-900 border-2 border-emerald-200 hover:border-emerald-600 px-6 py-3 rounded-xl font-bold transition shadow-sm" id="btn-topic2-sol">حل: الشعر المهجري</button>
+            <button onclick="switchTab('topic3-sol')" class="nav-btn bg-white text-emerald-900 border-2 border-emerald-200 hover:border-emerald-600 px-6 py-3 rounded-xl font-bold transition shadow-sm" id="btn-topic3-sol">حل: الشعر الحر</button>
+            <button onclick="switchTab('topic4-sol')" class="nav-btn bg-white text-emerald-900 border-2 border-emerald-200 hover:border-emerald-600 px-6 py-3 rounded-xl font-bold transition shadow-sm" id="btn-topic4-sol">حل: الشعر الاجتماعي</button>
+        </div>
+    </div>
+
+    <main class="container mx-auto px-4 py-8 max-w-5xl">
+
+        <!-- ========================================== -->
+        <!-- حل الموضوع الأول: الشعر السياسي -->
+        <!-- ========================================== -->
+        <section id="topic1-sol" class="tab-content active">
+            <div class="bg-white rounded-xl shadow-md overflow-hidden border-t-4 border-emerald-600">
+                <div class="p-6 bg-emerald-50 border-b border-emerald-100 text-center">
+                    <h2 class="text-2xl font-black text-emerald-800">التصحيح النموذجي: الموضوع الأول (محمود درويش)</h2>
+                </div>
+                
+                <div class="grid md:grid-cols-2 gap-0">
+                    <!-- البناء الفكري -->
+                    <div class="p-6 border-l border-gray-100">
+                        <h3 class="section-title"><i class="fa-solid fa-brain ml-2"></i>البناء الفكري (10 نقاط)</h3>
+                        <ul class="answer-list">
+                            <li>
+                                <div><span class="q-number">1</span><strong>القضية والدافع:</strong> <span class="point-badge">02 ن</span></div>
+                                <div class="mt-2 text-gray-700">يعالج الشاعر قضية <strong>الثورة الجزائرية ومواجهة الاستعمار الفرنسي</strong> <span class="sub-point">(1 ن)</span>. الدافع الذي جعله يتغنى بها هو <strong>النزعة القومية</strong> والتضامن العربي، وإيمانه بوحدة المصير، واعتبار الثورة الجزائرية رمزا للتحرر لكل العرب <span class="sub-point">(1 ن)</span>.</div>
+                            </li>
+                            <li>
+                                <div><span class="q-number">2</span><strong>وحشية المستعمر وموقف الشاعر:</strong> <span class="point-badge">02 ن</span></div>
+                                <div class="mt-2 text-gray-700"><strong>الوحشية:</strong> تظهر في "عظام جد ثائر قتلوه"، "تقيأت باريس كل ذئابها" <span class="sub-point">(1 ن)</span>. <strong>الادعاءات:</strong> تظهر في زعمه التحضر "لتمدن المتوحش الفلاحا". <strong>موقف الشاعر:</strong> السخرية والاستنكار وفضح هذه الادعاءات الكاذبة <span class="sub-point">(1 ن)</span>.</div>
+                            </li>
+                            <li>
+                                <div><span class="q-number">3</span><strong>دلالة الأوراس والجزائر:</strong> <span class="point-badge">02 ن</span></div>
+                                <div class="mt-2 text-gray-700">توظيفهما يدل على <strong>رمزية الصمود والمقاومة والثورة</strong> <span class="sub-point">(1 ن)</span>. علاقتها بوطنه (فلسطين) تكمن في استلهام الشاعر لروح التحدي والأمل في النصر واسترجاع الأرض المغتصبة <span class="sub-point">(1 ن)</span>.</div>
+                            </li>
+                            <li>
+                                <div><span class="q-number">4</span><strong>نبرة التحدي والإصرار:</strong> <span class="point-badge">02 ن</span></div>
+                                <div class="mt-2 text-gray-700">تتجلى في قول الشاعر: "ولدت ثائرا"، "تُنبت ألف ثائر"، "ملاحم الدم.. مالها أواخر" <span class="sub-point">(1 ن)</span>. <strong>أثرها:</strong> تبعث في نفسية المتلقي الحماس، الأمل، اليقين بحتمية الانتصار، ورفض الاستسلام <span class="sub-point">(1 ن)</span>.</div>
+                            </li>
+                            <li>
+                                <div><span class="q-number">5</span><strong>التلخيص:</strong> <span class="point-badge">02 ن</span></div>
+                                <div class="mt-2 text-gray-700">يُراعى في التلخيص: الملاءمة، سلامة اللغة، الحجم (الثلث)، وتلخيص المعنى (الاستعمار الغاشم زيف ادعاءاته، لكن الشعب الجزائري المتشبع بروح الثورة سيستمر في نضاله حتى النصر).</div>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <!-- البناء اللغوي -->
+                    <div class="p-6">
+                        <h3 class="section-title"><i class="fa-solid fa-pen-nib ml-2"></i>البناء اللغوي (10 نقاط)</h3>
+                        <ul class="answer-list">
+                            <li>
+                                <div><span class="q-number">1</span><strong>الحقلان الدلاليان:</strong> <span class="point-badge">02 ن</span></div>
+                                <div class="mt-2 text-gray-700"><strong>حقل المعاناة/الاستعمار:</strong> (دمي، قتلوه، ذئابها، جاعت) <span class="sub-point">(1 ن)</span>.<br><strong>حقل الثورة والتحدي:</strong> (الأوراس، ثائر، ملاحم، الدم) <span class="sub-point">(1 ن)</span>.</div>
+                            </li>
+                            <li>
+                                <div><span class="q-number">2</span><strong>الإعراب:</strong> <span class="point-badge">03 ن</span></div>
+                                <div class="mt-2 text-gray-700">
+                                    - <strong>مباحاً:</strong> خبر (كان) منصوب وعلامة نصبه الفتحة الظاهرة <span class="sub-point">(0.5 ن)</span>.<br>
+                                    - <strong>جزائرُ:</strong> منادى مبني على الضم في محل نصب (أداة النداء "يا") <span class="sub-point">(1 ن)</span>.<br>
+                                    - <strong>(إن جاعت):</strong> جملة شرطية لا محل لها من الإعراب (أو ابتدائية) <span class="sub-point">(1.5 ن)</span>.
+                                </div>
+                            </li>
+                            <li>
+                                <div><span class="q-number">3</span><strong>الصور البيانية:</strong> <span class="point-badge">03 ن</span></div>
+                                <div class="mt-2 text-gray-700">
+                                    - <strong>يستصرخ الدنيا:</strong> استعارة مكنية. شبه الدنيا بإنسان يستنجد به، فحذف المشبه به وترك قرينة دالة عليه <span class="sub-point">(1.5 ن)</span>.<br>
+                                    - <strong>تقيأت باريس ذئابها:</strong> استعارة مكنية (باريس تتقيأ) + استعارة تصريحية (ذئابها: شبه الجنود الفرنسيين بالذئاب) <span class="sub-point">(1.5 ن)</span>.<br>
+                                    <strong>البلاغة:</strong> التشخيص، تجسيد بشاعة المستعمر ودمويته وتقوية المعنى.
+                                </div>
+                            </li>
+                            <li>
+                                <div><span class="q-number">4</span><strong>الضمير البارز:</strong> <span class="point-badge">02 ن</span></div>
+                                <div class="mt-2 text-gray-700">الضمير هو <strong>(أنا) المتكلم</strong> (أنا، عُفّرت، ولدت) يعود على الشاعر المتقمص لشخصية الثائر الجزائري <span class="sub-point">(1 ن)</span>. <strong>دوره:</strong> تحقيق الاتساق والانسجام والإحالة القبلية، وإبراز ذاتية التحدي <span class="sub-point">(1 ن)</span>.</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================================== -->
+        <!-- حل الموضوع الثاني: الشعر المهجري -->
+        <!-- ========================================== -->
+        <section id="topic2-sol" class="tab-content">
+            <div class="bg-white rounded-xl shadow-md overflow-hidden border-t-4 border-emerald-600">
+                <div class="p-6 bg-emerald-50 border-b border-emerald-100 text-center">
+                    <h2 class="text-2xl font-black text-emerald-800">التصحيح النموذجي: الموضوع الثاني (إيليا أبو ماضي)</h2>
+                </div>
+                
+                <div class="grid md:grid-cols-2 gap-0">
+                    <div class="p-6 border-l border-gray-100">
+                        <h3 class="section-title"><i class="fa-solid fa-brain ml-2"></i>البناء الفكري (10 نقاط)</h3>
+                        <ul class="answer-list">
+                            <li>
+                                <div><span class="q-number">1</span><strong>الطرفان والغاية:</strong> <span class="point-badge">02 ن</span></div>
+                                <div class="mt-2 text-gray-700"><strong>الطرف الأول:</strong> المتشائم (يائس، شاكٍ، كئيب) <span class="sub-point">(0.5 ن)</span>. <strong>الطرف الثاني:</strong> المتفائل/الشاعر (ناصح، مشرق، عقلاني) <span class="sub-point">(0.5 ن)</span>. <strong>الغاية:</strong> الإقناع، الحجاج، ونبذ التشاؤم ودعوة الإنسان للاستمتاع بالحياة <span class="sub-point">(1 ن)</span>.</div>
+                            </li>
+                            <li>
+                                <div><span class="q-number">2</span><strong>مبررات الكآبة وتفنيدها:</strong> <span class="point-badge">02.5 ن</span></div>
+                                <div class="mt-2 text-gray-700"><strong>المبررات:</strong> السماء كئيبة، ذهاب الشباب، صراع التجارة، كثرة الأعداء، مرارة الأيام <span class="sub-point">(1.5 ن)</span>. <strong>التفنيد:</strong> ابتسامك لن يعيد ما فات، لكنه يمنحك الراحة ويؤثر إيجاباً على من حولك <span class="sub-point">(1 ن)</span>.</div>
+                            </li>
+                            <li>
+                                <div><span class="q-number">3</span><strong>المدرسة وخصائصها:</strong> <span class="point-badge">02.5 ن</span></div>
+                                <div class="mt-2 text-gray-700">ينتمي لمدرسة <strong>الرابطة القلمية (المذهب الرومانسي)</strong> <span class="sub-point">(1 ن)</span>. <strong>مبادئها في النص:</strong> النزعة الإنسانية والتفاؤلية، سهولة اللغة ووضوحها، الوحدة العضوية، توظيف الحوار والطبيعة <span class="sub-point">(1.5 ن)</span>.</div>
+                            </li>
+                            <li>
+                                <div><span class="q-number">4</span><strong>القيمتان:</strong> <span class="point-badge">01.5 ن</span></div>
+                                <div class="mt-2 text-gray-700"><strong>قيمة إنسانية:</strong> الدعوة للتفاؤل ومحبة الحياة (موطنها النص ككل) <span class="sub-point">(0.75 ن)</span>. <strong>قيمة فنية/أدبية:</strong> تتجلى في خصائص المدرسة المهجرية واعتماد الحوار <span class="sub-point">(0.75 ن)</span>.</div>
+                            </li>
+                            <li>
+                                <div><span class="q-number">5</span><strong>نثر الأبيات:</strong> <span class="point-badge">01.5 ن</span></div>
+                                <div class="mt-2 text-gray-700">يُراعى في النثر الحفاظ على المعنى (إن أحاط بك الأعداء فابتسم لأنهم يهابونك، وإن سقتك الأيام مرارة فابتسم، لعل ابتسامتك تكون سبباً في إسعاد غيرك)، وسلامة الأسلوب.</div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="section-title"><i class="fa-solid fa-pen-nib ml-2"></i>البناء اللغوي (10 نقاط)</h3>
+                        <ul class="answer-list">
+                            <li>
+                                <div><span class="q-number">1</span><strong>أساليب الإنشاء:</strong> <span class="point-badge">02 ن</span></div>
+                                <div class="mt-2 text-gray-700"><strong>الأمر:</strong> "ابتسم"، غرضه النصح والإرشاد والالتماس <span class="sub-point">(1 ن)</span>.<br><strong>الاستفهام:</strong> "أأسرّ والأعداء حولي؟"، غرضه الاستنكار والتعجب <span class="sub-point">(1 ن)</span>.</div>
+                            </li>
+                            <li>
+                                <div><span class="q-number">2</span><strong>الصور البيانية:</strong> <span class="point-badge">03 ن</span></div>
+                                <div class="mt-2 text-gray-700"><strong>"السماء كئيبة":</strong> استعارة مكنية، شبه السماء بإنسان يكتئب <span class="sub-point">(1 ن)</span>. <strong>"جرعتني علقما":</strong> استعارة مكنية لليالي (شبهها بإنسان يسقي)، أو استعارة تصريحية للهموم والمصائب شبهها بالعلقم <span class="sub-point">(1 ن)</span>. <strong>البلاغة:</strong> التشخيص والمبالغة في تصوير الحالة النفسية <span class="sub-point">(1 ن)</span>.</div>
+                            </li>
+                            <li>
+                                <div><span class="q-number">3</span><strong>المحسن البديعي (البيت 8):</strong> <span class="point-badge">01.5 ن</span></div>
+                                <div class="mt-2 text-gray-700">الطباق بين <strong>(مُرنّماً)</strong> و <strong>(الكآبة)</strong>، نوعه: طباق إيجاب <span class="sub-point">(1 ن)</span>. <strong>أثره:</strong> توضيح المعنى وتأكيده بالتضاد <span class="sub-point">(0.5 ن)</span>.</div>
+                            </li>
+                            <li>
+                                <div><span class="q-number">4</span><strong>دور الفعل "ابتسم":</strong> <span class="point-badge">01.5 ن</span></div>
+                                <div class="mt-2 text-gray-700">هو بمثابة <strong>لازمة شعرية</strong>، دوره الربط بين أجزاء القصيدة، تحقيق الاتساق والانسجام، وتأكيد الفكرة المحورية (الدعوة للتفاؤل) <span class="sub-point">(1.5 ن)</span>.</div>
+                            </li>
+                            <li>
+                                <div><span class="q-number">5</span><strong>الإعراب:</strong> <span class="point-badge">02 ن</span></div>
+                                <div class="mt-2 text-gray-700">
+                                    - <strong>المتصرما:</strong> نعت منصوب وعلامة نصبه الفتحة (والألف للإطلاق) <span class="sub-point">(0.5 ن)</span>.<br>
+                                    - <strong>(يكفي التجهم):</strong> جملة فعلية في محل نصب مقول القول <span class="sub-point">(0.75 ن)</span>.<br>
+                                    - <strong>(إن رآك مرنما):</strong> جملة فعلية في محل جر مضاف إليه (أو شرطية لا محل لها حسب التقدير النحوي المعطى) <span class="sub-point">(0.75 ن)</span>.
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================================== -->
+        <!-- حل الموضوع الثالث: الشعر الحر -->
+        <!-- ========================================== -->
+        <section id="topic3-sol" class="tab-content">
+            <div class="bg-white rounded-xl shadow-md overflow-hidden border-t-4 border-emerald-600">
+                <div class="p-6 bg-emerald-50 border-b border-emerald-100 text-center">
+                    <h2 class="text-2xl font-black text-emerald-800">التصحيح النموذجي: الموضوع الثالث (فاروق جويدة)</h2>
+                </div>
+                
+                <div class="grid md:grid-cols-2 gap-0">
+                    <div class="p-6 border-l border-gray-100">
+                        <h3 class="section-title"><i class="fa-solid fa-brain ml-2"></i>البناء الفكري (10 نقاط)</h3>
+                        <ul class="answer-list">
+                            <li>
+                                <div><span class="q-number">1</span><strong>صورة المدينة ومشاعر الشاعر:</strong> <span class="point-badge">02 ن</span></div>
+                                <div class="mt-2 text-gray-700">المدينة في عينيه غريبة، تائهة (حيرى)، يغطيها الضباب، ومقيدة (كالقيد يعصف بالسجين) <span class="sub-point">(1 ن)</span>. مشاعره تجاهها: الاغتراب، الحزن، الخوف، والشعور بالضياع <span class="sub-point">(1 ن)</span>.</div>
+                            </li>
+                            <li>
+                                <div><span class="q-number">2</span><strong>المأساة المزدوجة:</strong> <span class="point-badge">02 ن</span></div>
+                                <div class="mt-2 text-gray-700"><strong>مأساة فردية:</strong> اغتراب الشاعر وذكرياته مع أبيه "أتيت يوما كالغريب"، "صوت أبي يهز مسامعي" <span class="sub-point">(1 ن)</span>. <strong>مأساة جماعية:</strong> فقر الناس وضياعهم "جثث نامت فوق الرصيف"، "ماتوا يريدون الرغيف" <span class="sub-point">(1 ن)</span>.</div>
+                            </li>
+                            <li>
+                                <div><span class="q-number">3</span><strong>نقد التزييف وفقدان القيم:</strong> <span class="point-badge">02 ن</span></div>
+                                <div class="mt-2 text-gray-700">يظهر ذلك في الأسطر (10، 11) حيث ينتقد الشاعر الاكتفاء بالوعود الكاذبة والأقوال دون الأفعال: "في دنيا الكلام"، "وكل الناس تحيا بالكلام"، بينما يموت الفقراء جوعاً <span class="sub-point">(2 ن)</span>.</div>
+                            </li>
+                            <li>
+                                <div><span class="q-number">4</span><strong>مظاهر التجديد:</strong> <span class="point-badge">03 ن</span></div>
+                                <div class="mt-2 text-gray-700"><strong>الشكل:</strong> اعتماد نظام الأسطر (التفعيلة)، التنويع في القافية، توظيف الرمز <span class="sub-point">(1.5 ن)</span>.<br><strong>المضمون:</strong> التعبير عن ظاهرة الاغتراب والحزن، النزعة الواقعية، والوحدة العضوية والموضوعية <span class="sub-point">(1.5 ن)</span>.</div>
+                            </li>
+                            <li>
+                                <div><span class="q-number">5</span><strong>النمط الغالب:</strong> <span class="point-badge">01 ن</span></div>
+                                <div class="mt-2 text-gray-700">النمط هو <strong>الوصفي المدعوم بالسردي</strong>. المؤشرات: الجمل الاسمية (مدينتي حيرى)، النعوت (الغريب)، الأفعال الماضية للسرد (أتيت، هربوا، أرادوا) <span class="sub-point">(1 ن)</span>.</div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="section-title"><i class="fa-solid fa-pen-nib ml-2"></i>البناء اللغوي (10 نقاط)</h3>
+                        <ul class="answer-list">
+                            <li>
+                                <div><span class="q-number">1</span><strong>الرمز ودلالته:</strong> <span class="point-badge">02.5 ن</span></div>
+                                <div class="mt-2 text-gray-700"><strong>الضباب:</strong> يرمز للضياع، انعدام الرؤية، والمستقبل الغامض للمدينة <span class="sub-point">(1.25 ن)</span>. <strong>الرغيف:</strong> يرمز للفقر، الحاجات الأساسية، والمطالب المادية البسيطة المسلوبة <span class="sub-point">(1.25 ن)</span>.</div>
+                            </li>
+                            <li>
+                                <div><span class="q-number">2</span><strong>دور التكرار:</strong> <span class="point-badge">02 ن</span></div>
+                                <div class="mt-2 text-gray-700">تكرار (الضباب، الكلام) يهدف إلى التأكيد على حالة الضياع وزيف الوعود، كما يلعب دوراً في <strong>الاتساق اللفظي</strong> وتحقيق الإيقاع الموسيقي الداخلي للنص <span class="sub-point">(2 ن)</span>.</div>
+                            </li>
+                            <li>
+                                <div><span class="q-number">3</span><strong>الصورة البيانية:</strong> <span class="point-badge">02.5 ن</span></div>
+                                <div class="mt-2 text-gray-700"><strong>"أحشاؤها حبلى بطفل":</strong> استعارة مكنية، شبه المدينة (المكان) بامرأة حامل، حذف المشبه به وأبقى على القرينة "حبلى/أحشاء" <span class="sub-point">(1.5 ن)</span>. <strong>بلاغتها:</strong> التشخيص، تجسيد المعاناة والمستقبل المجهول المشوه للمدينة <span class="sub-point">(1 ن)</span>.</div>
+                            </li>
+                            <li>
+                                <div><span class="q-number">4</span><strong>الإعراب (مفردات):</strong> <span class="point-badge">01.5 ن</span></div>
+                                <div class="mt-2 text-gray-700">
+                                    - <strong>يوماً:</strong> ظرف زمان مفعول فيه منصوب وعلامة نصبه الفتحة <span class="sub-point">(0.75 ن)</span>.<br>
+                                    - <strong>جثثٌ:</strong> مبتدأ مرفوع (جاز الابتداء بالنكرة لتخصيصها بالإضافة "من الأحياء") <span class="sub-point">(0.75 ن)</span>.
+                                </div>
+                            </li>
+                            <li>
+                                <div><span class="q-number">5</span><strong>الإعراب (جمل):</strong> <span class="point-badge">01.5 ن</span></div>
+                                <div class="mt-2 text-gray-700">
+                                    - <strong>(يهز مسامعي):</strong> جملة فعلية في محل رفع خبر المبتدأ (رنين) <span class="sub-point">(0.75 ن)</span>.<br>
+                                    - <strong>(يريدون الرغيف):</strong> جملة فعلية في محل نصب حال (من واو الجماعة في ماتوا) <span class="sub-point">(0.75 ن)</span>.
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================================== -->
+        <!-- حل الموضوع الرابع: الشعر الاجتماعي -->
+        <!-- ========================================== -->
+        <section id="topic4-sol" class="tab-content">
+            <div class="bg-white rounded-xl shadow-md overflow-hidden border-t-4 border-emerald-600">
+                <div class="p-6 bg-emerald-50 border-b border-emerald-100 text-center">
+                    <h2 class="text-2xl font-black text-emerald-800">التصحيح النموذجي: الموضوع الرابع (إيليا أبو ماضي)</h2>
+                </div>
+                
+                <div class="grid md:grid-cols-2 gap-0">
+                    <div class="p-6 border-l border-gray-100">
+                        <h3 class="section-title"><i class="fa-solid fa-brain ml-2"></i>البناء الفكري (10 نقاط)</h3>
+                        <ul class="answer-list">
+                            <li>
+                                <div><span class="q-number">1</span><strong>المخاطب والطلب:</strong> <span class="point-badge">02 ن</span></div>
+                                <div class="mt-2 text-gray-700">يوجه الشاعر خطابه إلى <strong>عقلاء العرب والأغنياء (الجالون)</strong> <span class="sub-point">(1 ن)</span>. يطلب منهم أن يكونوا هداة للمضلين، وأن ينفقوا أموالهم لإنقاذ إخوانهم من الفقر والجوع والجهل <span class="sub-point">(1 ن)</span>.</div>
+                            </li>
+                            <li>
+                                <div><span class="q-number">2</span><strong>التفاوت الطبقي:</strong> <span class="point-badge">02.5 ن</span></div>
+                                <div class="mt-2 text-gray-700">يظهر التفاوت بوضوح في البيتين (6 و 7): "يغشى الرقاد جفونكم / يغشى الدمع تلك المآقيا"، و "يكسو الحرير جسومكم / لم تبق شدة الضنك كاسيا" <span class="sub-point">(1.5 ن)</span>. <strong>الشرح:</strong> يقارن بين طبقة الأغنياء المنعمين بالحرير والنوم المريح، وطبقة الفقراء المعذبين بالجوع والدموع والعري <span class="sub-point">(1 ن)</span>.</div>
+                            </li>
+                            <li>
+                                <div><span class="q-number">3</span><strong>نظرة الشاعر للمال:</strong> <span class="point-badge">02 ن</span></div>
+                                <div class="mt-2 text-gray-700">يرى الشاعر أن المال إذا لم يُنفق في أفعال الخير ومساعدة المحتاجين يصبح <strong>عاراً ومخزياً</strong> لصاحبه <span class="sub-point">(1 ن)</span>. الموافقة: (يوافق التلميذ الرأي ويعلل) بأن للمال وظيفة اجتماعية وتكافلية <span class="sub-point">(1 ن)</span>.</div>
+                            </li>
+                            <li>
+                                <div><span class="q-number">4</span><strong>التوبيخ والاستنهاض:</strong> <span class="point-badge">01.5 ن</span></div>
+                                <div class="mt-2 text-gray-700"><strong>العبارة:</strong> "من العار أن يغشى الرقاد جفونكم..." <span class="sub-point">(0.75 ن)</span>. <strong>أثرها:</strong> وخز الضمائر، إثارة الخجل في نفوس الأغنياء لدفعهم نحو تحمل مسؤولياتهم الاجتماعية <span class="sub-point">(0.75 ن)</span>.</div>
+                            </li>
+                            <li>
+                                <div><span class="q-number">5</span><strong>الفكرة العامة والوحدات:</strong> <span class="point-badge">02 ن</span></div>
+                                <div class="mt-2 text-gray-700"><strong>الفكرة العامة:</strong> دعوة أغنياء العرب للتكافل الاجتماعي ونبذ الأنانية لإنقاذ الفقراء <span class="sub-point">(1 ن)</span>.<br><strong>الوحدات:</strong> الوحدة 1 (1-4): نداء العقل وتبيين دور النخب. الوحدة 2 (5-8): تصوير التفاوت الطبقي وتقريع الأغنياء البخلاء <span class="sub-point">(1 ن)</span>.</div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="section-title"><i class="fa-solid fa-pen-nib ml-2"></i>البناء اللغوي (10 نقاط)</h3>
+                        <ul class="answer-list">
+                            <li>
+                                <div><span class="q-number">1</span><strong>ظاهرة التكرار (من العار):</strong> <span class="point-badge">02 ن</span></div>
+                                <div class="mt-2 text-gray-700">تسمى الظاهرة بـ <strong>التكرار (أو التوازي التركيبي)</strong> <span class="sub-point">(1 ن)</span>. <strong>وظيفتها:</strong> الإلحاح على المعنى (التوبيخ الشديد)، خلق إيقاع موسيقي، والمساهمة في اتساق النص <span class="sub-point">(1 ن)</span>.</div>
+                            </li>
+                            <li>
+                                <div><span class="q-number">2</span><strong>المحسن البديعي (البيت 7):</strong> <span class="point-badge">02 ن</span></div>
+                                <div class="mt-2 text-gray-700">الطباق بين <strong>(يكسو)</strong> و <strong>(لم تبقِ.. كاسياً / عارياً ضمناً)</strong> أو التضاد الدلالي بين حال الطبقتين <strong>(مقابلة)</strong> بين الشطرين <span class="sub-point">(1 ن)</span>. <strong>الأثر:</strong> توضيح شدة التفاوت وتعميق المعنى عن طريق إبراز التناقض <span class="sub-point">(1 ن)</span>.</div>
+                            </li>
+                            <li>
+                                <div><span class="q-number">3</span><strong>الصورة البيانية:</strong> <span class="point-badge">03 ن</span></div>
+                                <div class="mt-2 text-gray-700"><strong>"ساق الجوع غازيا":</strong> استعارة مكنية، شبه الجوع بالقائد العسكري الذي يقود جيشاً للغزو (أو تشبيه بليغ: جيش الجوع) <span class="sub-point">(1.5 ن)</span>. <strong>سر جمالها:</strong> التجسيد والتوضيح لإبراز قسوة الفقر وفتكه بالناس كأنه حرب مدمرة <span class="sub-point">(1.5 ن)</span>.</div>
+                            </li>
+                            <li>
+                                <div><span class="q-number">4</span><strong>الإعراب (مفردات):</strong> <span class="point-badge">01.5 ن</span></div>
+                                <div class="mt-2 text-gray-700">
+                                    - <strong>هادياً:</strong> خبر (كان) منصوب وعلامة نصبه الفتحة الظاهرة <span class="sub-point">(0.75 ن)</span>.<br>
+                                    - <strong>العالمون:</strong> فاعل (للفعل رآه) مرفوع وعلامة رفعه الواو لأنه جمع مذكر سالم <span class="sub-point">(0.75 ن)</span>.
+                                </div>
+                            </li>
+                            <li>
+                                <div><span class="q-number">5</span><strong>الإعراب (جمل):</strong> <span class="point-badge">01.5 ن</span></div>
+                                <div class="mt-2 text-gray-700">
+                                    - <strong>(لو تسمعون مناديا):</strong> جملة شرطية اعتراضية لا محل لها من الإعراب <span class="sub-point">(0.75 ن)</span>.<br>
+                                    - <strong>(لم ينفقه في الخير ربه):</strong> جملة فعلية في محل جر مضاف إليه (بعد إذا الظرفية) <span class="sub-point">(0.75 ن)</span>.
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-slate-900 text-slate-300 py-8 text-center text-sm mt-8 border-t-4 border-emerald-500">
+        <p class="font-black text-xl text-white mb-2"><i class="fa-solid fa-feather-pointed text-yellow-400 ml-2"></i>منصة نوفل التعليمية</p>
+        <p>بوابتك نحو الامتياز في شهادة البكالوريا - قسم الأدب العربي (التصحيح النموذجي)</p>
+    </footer>
+
+    <script>
+        function switchTab(tabId) {
+            document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
+            document.querySelectorAll('.nav-btn').forEach(el => {
+                el.classList.remove('bg-emerald-600', 'text-white', 'border-emerald-600');
+                el.classList.add('bg-white', 'text-emerald-900', 'border-emerald-200');
+            });
+            
+            document.getElementById(tabId).classList.add('active');
+            
+            const activeBtn = document.getElementById('btn-' + tabId);
+            activeBtn.classList.remove('bg-white', 'text-emerald-900', 'border-emerald-200');
+            activeBtn.classList.add('bg-emerald-600', 'text-white', 'border-emerald-600');
+        }
+    </script>
+</body>
+</html>
